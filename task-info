@@ -1,0 +1,6 @@
+# Task Info
+sudo -u _azbatch $AZ_BATCH_TASK_SHARED_DIR/share/OpenFOAM/application-cmd 3 16 500 
+            $AZ_BATCH_TASK_SHARED_DIR $AZ_BATCH_HOST_LIST
+
+# Coordination Info
+$AZ_BATCH_TASK_SHARED_DIR/coordination-cmd
